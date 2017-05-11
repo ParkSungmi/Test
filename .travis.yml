@@ -44,7 +44,3 @@ before_script:
 script:
   - travis_wait 60 ./gradlew clean connectedCheck -Dorg.gradle.java.home=/usr/lib/jvm/java-8-oracle
 
-branches:
-  only:
-    - master
-
